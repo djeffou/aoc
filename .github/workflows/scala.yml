@@ -9,6 +9,9 @@ on:
 permissions:
   contents: read
 
+env:
+  SBT_OPTS: '-Xmx2048M'
+
 jobs:
   build:
 
