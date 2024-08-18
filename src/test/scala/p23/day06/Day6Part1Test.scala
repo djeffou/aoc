@@ -17,7 +17,7 @@ class Day6Part1Test extends AnyFunSuite {
   }
 
   test("Compute real case") {
-    val result = Day6Part1.check(Source.fromResource("p23/day6/input.txt").mkString)
+    val result = Day6Part1.check(Source.fromResource("p23/day06/input.txt").mkString)
     assert(result == 114400)
   }
 }

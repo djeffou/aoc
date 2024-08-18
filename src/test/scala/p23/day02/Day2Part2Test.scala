@@ -1,7 +1,6 @@
 package p23.day02
 
 import org.scalatest.funsuite.AnyFunSuite
-import p23.day01.Day1Part1
 
 import scala.io.Source
 
@@ -36,7 +35,7 @@ class Day2Part2Test extends AnyFunSuite {
   }
 
   test("Compute real case") {
-    val result = Day2Part2.check(Source.fromResource("p23/day2/input.txt").getLines().toSeq)
+    val result = Day2Part2.check(Source.fromResource("p23/day02/input.txt").getLines().toSeq)
     assert(result == 83707)
   }
 }

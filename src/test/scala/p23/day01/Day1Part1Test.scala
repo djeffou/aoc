@@ -18,7 +18,7 @@ class Day1Part1Test extends AnyFunSuite {
   }
 
   test("Compute real case") {
-    val result = Day1Part1.getSum(Source.fromResource("p23/day1/input.txt").getLines().toSeq)
+    val result = Day1Part1.getSum(Source.fromResource("p23/day01/input.txt").getLines().toSeq)
     assert(result == 54968)
   }
 }
